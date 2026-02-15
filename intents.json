@@ -1,0 +1,310 @@
+{
+  "intents": [
+
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey there",
+        "Good morning",
+        "Good evening",
+        "Hi chatbot",
+        "Hey bot",
+        "Hello there"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What would you like to talk about?",
+        "Greetings! How may I help you?"
+      ]
+    },
+
+    {
+      "tag": "smalltalk",
+      "patterns": [
+        "How are you?",
+        "What about you?",
+        "How's it going?",
+        "Are you doing well?",
+        "How do you feel?"
+      ],
+      "responses": [
+        "I'm functioning optimally and ready to assist you!",
+        "I'm doing great and ready to help!",
+        "All systems are running smoothly!"
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you soon",
+        "Catch you later",
+        "See you",
+        "Take care"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you later!",
+        "It was nice chatting with you."
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "I appreciate it",
+        "Much appreciated",
+        "Thanks for your help",
+        "Thanks a lot",
+        "Nice!",
+        "Ok"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Glad I could assist."
+      ]
+    },
+
+    {
+      "tag": "capabilities",
+      "patterns": [
+        "What can you do?",
+        "How can you help me?",
+        "List your capabilities",
+        "What are your features?",
+        "Help me",
+        "What services do you provide?"
+      ],
+      "responses": [
+        "I can answer predefined technical questions, explain AI concepts, provide career and resume advice, demonstrate traditional NLP techniques like TF-IDF and cosine similarity, and analyze sentiment using Azure AI cloud services."
+      ]
+    },
+
+    {
+      "tag": "about",
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Tell me about yourself",
+        "Describe yourself",
+        "What kind of bot are you?",
+        "Tell me about you?",
+        "About you?",
+        "Who built you?"
+      ],
+      "responses": [
+        "I am a hybrid chatbot built using traditional TF-IDF vectorization and cosine similarity for intent matching, enhanced with Azure AI sentiment analysis."
+      ]
+    },
+
+    {
+      "tag": "ai",
+      "patterns": [
+        "What is artificial intelligence?",
+        "Explain AI",
+        "Define AI",
+        "Tell me about artificial intelligence",
+        "What does AI mean?",
+        "How does AI work?"
+      ],
+      "responses": [
+        "Artificial Intelligence is the simulation of human intelligence processes by machines, especially computer systems."
+      ]
+    },
+
+    {
+      "tag": "ml",
+      "patterns": [
+        "What is machine learning?",
+        "Explain machine learning",
+        "Define ML",
+        "How does machine learning work?",
+        "Tell me about ML",
+        "How do machines learn?",
+        "Is ML part of AI?"
+      ],
+      "responses": [
+        "Machine learning is a subset of AI that allows systems to learn from data and improve performance without explicit programming."
+      ]
+    },
+
+    {
+      "tag": "nlp",
+      "patterns": [
+        "What is NLP?",
+        "Explain natural language processing",
+        "Define NLP",
+        "What does NLP stand for?",
+        "Tell me about NLP",
+        "What is natural language processing?",
+        "How do computers understand language?"
+      ],
+      "responses": [
+        "Natural Language Processing enables computers to understand, interpret, and generate human language."
+      ]
+    },
+
+    {
+      "tag": "tfidf",
+      "patterns": [
+        "What is TF-IDF?",
+        "Explain TF-IDF",
+        "How does TF-IDF work?",
+        "Define TF-IDF",
+        "Tell me about term frequency inverse document frequency"
+      ],
+      "responses": [
+        "TF-IDF measures the importance of words in a document relative to a collection of documents, helping identify significant terms."
+      ]
+    },
+
+    {
+      "tag": "cosine",
+      "patterns": [
+        "What is cosine similarity?",
+        "Explain cosine similarity",
+        "How is cosine similarity used?",
+        "Define cosine similarity",
+        "Tell me about cosine similarity"
+      ],
+      "responses": [
+        "Cosine similarity measures the similarity between two vectors by calculating the cosine of the angle between them."
+      ]
+    },
+
+    {
+      "tag": "python",
+      "patterns": [
+        "What is Python?",
+        "Explain Python programming",
+        "Tell me about Python",
+        "What kind of language is Python?",
+        "Define Python language"
+      ],
+      "responses": [
+        "Python is a high-level, interpreted programming language known for readability and extensive libraries."
+      ]
+    },
+
+    {
+      "tag": "flask",
+      "patterns": [
+        "What is Flask?",
+        "Explain Flask framework",
+        "Tell me about Flask",
+        "What is Flask used for?",
+        "Define Flask"
+      ],
+      "responses": [
+        "Flask is a lightweight Python web framework used to build web applications and APIs."
+      ]
+    },
+
+    {
+      "tag": "data_science",
+      "patterns": [
+        "What is data science?",
+        "Explain data science",
+        "Define data science",
+        "Tell me about data science",
+        "What does a data scientist do?"
+      ],
+      "responses": [
+        "Data science involves extracting insights from structured and unstructured data using statistics, machine learning, and programming."
+      ]
+    },
+
+    {
+      "tag": "resume",
+      "patterns": [
+        "How to improve my resume?",
+        "Resume tips?",
+        "Give me resume advice",
+        "How to build a strong resume?",
+        "What makes a good resume?"
+      ],
+      "responses": [
+        "A strong resume highlights measurable achievements, relevant skills, and clear impact in previous roles or projects."
+      ]
+    },
+
+    {
+      "tag": "career",
+      "patterns": [
+        "Career advice?",
+        "How to grow in career?",
+        "Give me career guidance",
+        "How to succeed professionally?",
+        "Tips for career success"
+      ],
+      "responses": [
+        "Continuous learning, skill development, and adaptability are essential for long-term career success."
+      ]
+    },
+
+    {
+      "tag": "motivation",
+      "patterns": [
+        "Motivate me",
+        "I need motivation",
+        "Inspire me",
+        "Give me encouragement",
+        "Say something motivating"
+      ],
+      "responses": [
+        "Consistency beats motivation. Focus on daily progress and long-term discipline."
+      ]
+    },
+
+    {
+      "tag": "stress",
+      "patterns": [
+        "I am stressed",
+        "Feeling stressed",
+        "How to reduce stress?",
+        "I feel overwhelmed",
+        "Help with stress"
+      ],
+      "responses": [
+        "Take short breaks, practice deep breathing, and focus on one task at a time."
+      ]
+    },
+
+    {
+      "tag": "health",
+      "patterns": [
+        "Health advice?",
+        "Tips for healthy living",
+        "How to stay healthy?",
+        "Give me health tips",
+        "Wellness advice"
+      ],
+      "responses": [
+        "Balanced nutrition, regular exercise, and sufficient sleep are key to maintaining good health."
+      ]
+    },
+
+    {
+      "tag": "ethics",
+      "patterns": [
+        "What is responsible AI?",
+        "Explain AI ethics",
+        "Is AI safe?",
+        "What is ethical AI?",
+        "Tell me about AI responsibility"
+      ],
+      "responses": [
+        "Responsible AI focuses on fairness, transparency, accountability, privacy, and minimizing harm in AI systems."
+      ]
+    }
+
+  ]
+}
